@@ -41,20 +41,14 @@ const Footer = () => {
             </div>
             <div className="pt-4 text-center">
               <Button
-                href={`#${MENULINKS[4].ref}`}
+                link={'wa.link/2kjlh6'}
                 classes="link"
                 type="secondary"
               >
                 Let&apos;s Talk
               </Button>
             </div>
-            <p className="text-center text-white text-sm sm:text-base font-medium tracking-wide mt-8">
-              Developed with{" "}
-              <button onClick={handleClick} className="link cursor-none">
-                <span className="block animate-bounce">❤️</span>
-              </button>{" "}
-              by <span className="text-white">Shubh Porwal</span>
-            </p>
+            
           </div>
         </div>
       </Fade>

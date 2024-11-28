@@ -57,11 +57,10 @@ const About1 = ({ clientHeight }) => {
         >
           <span className="about-1 leading-tight">
             I&apos;m a passionate Engineer who&apos;s focused on building
-            scalable and performant apps.{" "}
+            FullStack Mobile and Web apps.{" "}
           </span>
           <span className="about-2 leading-tight">
-            I take responsibility to craft a good user experience using modern
-            frontend architecture.{" "}
+          I thrive on creating efficient, scalable, and user-focused solutions. {" "}
           </span>
         </h1>
       </div>

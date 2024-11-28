@@ -47,14 +47,14 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           alt="project"
           className="absolute w-full h-full top-0 left-0 object-cover opacity-30"
         />
-        <Image
+        {/* <Image
           src={image}
           alt={name}
           fill
           placeholder="blur"
           blurDataURL={blurImage}
           className={`${styles.projectImage} z-0`}
-        />
+        /> */}
         <div
           className="absolute top-0 left-0 w-full h-20"
           style={{
@@ -79,7 +79,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           `}
         >
           <div className="flex flex-col pb-8">
-            {project.tech.map((el, i) => (
+            {/* {project.tech.map((el, i) => (
               <img
                 className={`${i % 2 === 0 && "ml-16"} mb-4`}
                 src={`/projects/tech/${el}.svg`}
@@ -88,7 +88,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
                 width={45}
                 key={el}
               />
-            ))}
+            ))} */}
           </div>
         </div>
         <h2
